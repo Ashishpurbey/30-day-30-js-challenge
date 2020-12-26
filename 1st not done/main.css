@@ -1,0 +1,36 @@
+body{
+    background:linear-gradient(120deg,purple,blue);
+    width: 100%;
+    height: 100vh;
+}
+.keys{
+    width:100%;
+    height:300px;
+    border:2px solid black;
+    display:flex;
+    justify-content: space-evenly;
+    margin-top:30%;
+}
+.key{
+    width:60px;
+    height:40px;
+    border:2px solid black;
+    margin-top:10%;
+    display:block;
+}
+.key div{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 800;
+    color:white;
+}
+.sound{
+    font-size: 15px;
+    margin-left: 15px;
+    color:yellowgreen
+}
+.playing{
+    transform: scale(1.2);
+    box-shadow: 0 0 10px  5px whitesmoke;
+    transition: all 1s;
+}

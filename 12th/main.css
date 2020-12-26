@@ -1,0 +1,9 @@
+p{
+    position:absolute;
+    font-size: 100px;
+    top:30vh;
+    left:30vw;
+    font-weight: 900;
+    text-decoration: underline;
+    color:rgb(255, 0, 76)
+}
